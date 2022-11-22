@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CySim.AppDbContext
 {
-    public class AppDbContext : IdentityDbContext<IdentityUser>
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
 
-        public AppDbContext(DbContextOptions<AppDbContext> options) :
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) :
             base(options)
         {
 
